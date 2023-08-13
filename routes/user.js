@@ -12,7 +12,7 @@ const {
 const router = Router ();
 
 router.get('/',  userGet)
-router.put('/',  userPut)
+router.put('/:id',  userPut)
 router.post('/', userPos)
 router.delete('/', userDelete )
 router.patch('/',  userPath )

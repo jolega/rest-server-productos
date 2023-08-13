@@ -1,5 +1,9 @@
 # rest-server-productos
 
+para ejecturar por primera vez 
+
+npm install y crear el .env 
+
 
 # sincronizacion del proyecto con git
 
