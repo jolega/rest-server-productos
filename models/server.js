@@ -18,12 +18,19 @@ class Server {
     }
 
 
-
     middleware () {
 
+
+        //cors
+        this.app.use(cors())
+
+        //read body
+        this.app.use(express.json())
+
+        // direct public 
         this.app.use( express.static('public'))
 
-        this.app.use(cors())
+ 
     }
 
     routes(){
