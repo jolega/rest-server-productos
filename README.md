@@ -1,4 +1,4 @@
-# rest-server-proeductos
+# rest-server-productos
 
 
 # sincronizacion del proyecto con git
@@ -34,3 +34,8 @@ nodemon app
 npm i express dotenv 
 
 https://www.npmjs.com/package/express
+
+
+# cors
+
+https://www.npmjs.com/package/cors
